@@ -40,7 +40,7 @@ helpButton.onclick = () => {
 window.onscroll = () =>
 {
     searchForm.classList.remove('active');
-    
+    helpContent.classList.remove('active');
     loginForm.classList.remove('active');
     navbar.classList.remove('active');
 }
